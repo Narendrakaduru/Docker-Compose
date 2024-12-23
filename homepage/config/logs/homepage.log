@@ -1,0 +1,1006 @@
+[2024-10-08T04:41:24.450Z] info: docker.yaml was copied to the config folder
+[2024-10-08T04:41:24.452Z] info: services.yaml was copied to the config folder
+[2024-10-08T04:41:24.453Z] info: bookmarks.yaml was copied to the config folder
+[2024-10-08T04:41:24.463Z] info: widgets.yaml was copied to the config folder
+[2024-10-08T04:41:24.464Z] info: custom.css was copied to the config folder
+[2024-10-08T04:41:24.470Z] info: custom.js was copied to the config folder
+[2024-10-08T04:41:24.588Z] info: kubernetes.yaml was copied to the config folder
+[2024-10-08T04:52:58.858Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T04:52:58.858Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T04:52:58.893Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T04:52:58.893Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T04:52:59.950Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T04:52:59.950Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T04:53:10.707Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T04:53:10.707Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T04:54:27.976Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T04:54:27.977Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T05:35:18.605Z] error: <index> YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at storeMappingPair (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1448:7)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2263:9)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+[2024-10-08T05:35:18.651Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-10-08T05:35:18.652Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:18.654Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-08T05:35:18.654Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:18.670Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-08T05:35:18.671Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:20.707Z] error: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:20.715Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-10-08T05:35:20.715Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:20.718Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-08T05:35:20.718Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T05:35:20.728Z] error: Failed to load settings.yaml, please check for errors
+[2024-10-08T05:35:20.729Z] error: YAMLException: duplicated mapping key (11:3)
+
+  8 |   My First Group:
+  9 |     style: row
+ 10 |     columns: 3
+ 11 |   My First Group:
+--------^
+ 12 |     style: row
+ 13 |     columns: 2
+[2024-10-08T06:11:23.403Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:11:35.782Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:11:58.423Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:12:02.336Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:12:14.796Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:12:56.982Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:13:09.121Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:13:23.377Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:13:51.575Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:13:51.588Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:13:59.010Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:14:11.379Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:15:08.498Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:16:36.348Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:17:53.560Z] error: <httpProxy> Error calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json...
+[2024-10-08T06:17:53.567Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN portainer.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:17:53.568Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:18:24.008Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:18:26.804Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:18:38.770Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:19:22.820Z] error: <httpProxy> Error calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json...
+[2024-10-08T06:19:22.822Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN portainer.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:19:22.822Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:20:12.557Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:20:15.203Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:20:45.350Z] error: <httpProxy> Error calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json...
+[2024-10-08T06:20:45.353Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN portainer.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:20:45.354Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:21:05.164Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:21:13.371Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:21:25.842Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:21:39.297Z] error: <credentialedProxyHandler> HTTP Error 404 calling https://portainer.nanitech.duckdns.org//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:21:56.047Z] error: undefined
+[2024-10-08T06:21:58.711Z] error: undefined
+[2024-10-08T06:22:03.768Z] error: undefined
+[2024-10-08T06:22:29.757Z] error: undefined
+[2024-10-08T06:22:43.607Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:22:44.688Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:22:55.090Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:23:05.119Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:23:20.284Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:23:25.333Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:23:45.736Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:24:09.312Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:24:40.893Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:24:46.706Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:25:17.691Z] error: undefined
+[2024-10-08T06:25:20.283Z] error: undefined
+[2024-10-08T06:25:30.329Z] error: undefined
+[2024-10-08T06:25:32.818Z] error: undefined
+[2024-10-08T06:25:37.853Z] error: undefined
+[2024-10-08T06:25:45.669Z] error: undefined
+[2024-10-08T06:26:03.667Z] error: undefined
+[2024-10-08T06:27:14.536Z] error: undefined
+[2024-10-08T06:27:24.621Z] error: undefined
+[2024-10-08T06:28:42.610Z] error: undefined
+[2024-10-08T06:28:47.635Z] error: undefined
+[2024-10-08T06:30:30.484Z] error: undefined
+[2024-10-08T06:30:35.384Z] error: <httpProxy> Error calling https://grafana.nanitech.duckdns.org//api/admin/stats...
+[2024-10-08T06:30:35.386Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN grafana.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'grafana.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:30:35.410Z] error: <httpProxy> Error calling https://grafana.nanitech.duckdns.org//api/alerts...
+[2024-10-08T06:30:35.413Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN grafana.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'grafana.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:30:40.558Z] error: undefined
+[2024-10-08T06:31:05.559Z] error: undefined
+[2024-10-08T06:31:42.459Z] error: undefined
+[2024-10-08T06:31:45.553Z] error: undefined
+[2024-10-08T06:31:52.476Z] error: undefined
+[2024-10-08T06:32:02.487Z] error: undefined
+[2024-10-08T06:32:07.310Z] error: undefined
+[2024-10-08T06:32:12.315Z] error: <httpProxy> Error calling https://grafana.nanitech.duckdns.org//api/admin/stats...
+[2024-10-08T06:32:12.316Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN grafana.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'grafana.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:32:12.323Z] error: <httpProxy> Error calling https://grafana.nanitech.duckdns.org//api/alerts...
+[2024-10-08T06:32:12.324Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN grafana.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'grafana.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:32:12.327Z] error: undefined
+[2024-10-08T06:32:13.274Z] error: undefined
+[2024-10-08T06:32:23.292Z] error: undefined
+[2024-10-08T06:32:37.331Z] error: undefined
+[2024-10-08T06:32:47.485Z] error: undefined
+[2024-10-08T06:32:48.297Z] error: undefined
+[2024-10-08T06:33:08.331Z] error: undefined
+[2024-10-08T06:33:10.537Z] error: undefined
+[2024-10-08T06:33:15.678Z] error: <httpProxy> Error calling https://grafana.nanitech.duckdns.org//api/alertmanager/grafana/api/v2/alerts...
+[2024-10-08T06:33:15.679Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN grafana.nanitech.duckdns.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'grafana.nanitech.duckdns.org'
+  }
+]
+[2024-10-08T06:33:17.324Z] error: undefined
+[2024-10-08T06:33:18.452Z] error: undefined
+[2024-10-08T06:33:23.455Z] error: undefined
+[2024-10-08T06:33:55.716Z] error: undefined
+[2024-10-08T06:33:58.436Z] error: undefined
+[2024-10-08T06:34:09.428Z] error: undefined
+[2024-10-08T06:34:57.808Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:00.491Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:10.715Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:32.623Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:33.416Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:39.398Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:47.123Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:35:57.159Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:36:16.564Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:36:17.168Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:36:26.894Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:36:37.378Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:36:50.551Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:37:01.358Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:37:02.359Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:37:19.482Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:37:25.344Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:37:58.327Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:38:05.782Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:38:09.326Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:39:09.552Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:39:11.873Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:39:16.980Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:39:37.289Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:41:09.165Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:41:19.251Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:12.824Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:18.220Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:34.338Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:36.935Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:42.009Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:42:52.203Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:43:09.863Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:43:10.520Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:43:20.630Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:43:45.640Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:44:06.172Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:45:21.874Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:45:24.676Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:45:28.488Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:46:59.431Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:47:05.084Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:47:55.272Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:47:56.131Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:48:00.276Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:48:02.410Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:48:07.482Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:48:22.498Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:48:52.504Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:54:39.011Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:54:49.897Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:55:08.850Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:55:13.883Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:56:06.354Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:56:16.854Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:56:33.524Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:58:46.681Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:58:51.706Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:58:59.836Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:06.723Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:09.861Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:24.762Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:24.892Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:34.790Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:36.734Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:49.925Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T06:59:59.824Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:01:01.734Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:01:40.659Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:01:45.687Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:02:00.697Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:02:51.677Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:03:24.307Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:03:34.652Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:04:07.368Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:04:08.260Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:04:18.328Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:04:33.347Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:05:08.381Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:06:08.592Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:06:19.935Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:06:25.580Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:06:42.539Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:10:03.606Z] error: <httpProxy> Error calling http://localhost:9443/api//api/endpoints/2/docker/containers/json...
+[2024-10-08T07:10:03.613Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:10:03.615Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:10:08.439Z] error: undefined
+[2024-10-08T07:10:08.442Z] error: <httpProxy> Error calling http://localhost:9443/api//api/endpoints/2/docker/containers/json...
+[2024-10-08T07:10:08.444Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:10:08.447Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:10:12.930Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:10:12.931Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:12.931Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:10:12.934Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:12.935Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:12.936Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:10:17.451Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:17.453Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:17.454Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:10:43.690Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:43.691Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:43.691Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:10:43.693Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:10:43.694Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:43.694Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:10:43.697Z] error: <httpProxy> Error calling http://localhost:9443/api//api/endpoints/2/docker/containers/json...
+[2024-10-08T07:10:43.698Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:10:43.699Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api//api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:10:48.223Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:48.224Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:48.224Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:10:55.368Z] error: <httpProxy> Error calling http://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:10:55.370Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:10:55.371Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:10:59.410Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:59.410Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:59.410Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:10:59.411Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:10:59.412Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:10:59.412Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:10:59.414Z] error: <httpProxy> Error calling http://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:10:59.415Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:10:59.416Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:11:03.512Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:11:03.512Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:11:03.513Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:11:03.515Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:11:03.515Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:11:03.516Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:11:07.593Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:11:07.594Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:11:07.595Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:11:07.599Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:11:07.600Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:11:07.601Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:11:07.605Z] error: <httpProxy> Error calling http://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:11:07.606Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:11:07.607Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:13:04.791Z] error: <httpProxy> Error calling http://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:13:04.794Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:13:04.795Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:13:08.853Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:13:08.853Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:08.854Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:13:08.857Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:13:08.859Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:08.860Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:13:13.065Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:13:13.066Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:13.066Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:13:30.868Z] error: <httpProxy> Error calling http://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:13:30.870Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:13:30.870Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:13:34.932Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:13:34.934Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:34.934Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:13:34.935Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:13:34.936Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:34.936Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:13:39.440Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:13:39.441Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:13:39.441Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:13:58.611Z] error: <httpProxy> Error calling https://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:13:58.612Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:13:58.613Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:14:02.774Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:02.777Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:02.778Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:14:02.783Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:14:02.783Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:02.784Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:14:02.789Z] error: <httpProxy> Error calling https://localhost:9443/api/endpoints/2/docker/containers/json...
+[2024-10-08T07:14:02.790Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+]
+[2024-10-08T07:14:02.791Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://localhost:9443/api/endpoints/2/docker/containers/json?all=1
+[2024-10-08T07:14:07.294Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:07.295Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:07.295Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:14:07.298Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:14:07.299Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:07.300Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:14:11.394Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:11.395Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:11.395Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:14:11.397Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:11.398Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:11.399Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:14:46.601Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:14:46.604Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:46.605Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:14:46.614Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:46.615Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:46.617Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:14:50.843Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:50.844Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:50.845Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:14:50.851Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:14:50.853Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:50.853Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:14:55.106Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:55.107Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:55.107Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:14:55.110Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:14:55.111Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:14:55.111Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:16:09.846Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:16:09.846Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:16:09.847Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:16:09.849Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:16:09.850Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:16:09.850Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:16:14.508Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:16:14.509Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:16:14.509Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:16:18.815Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/...
+[2024-10-08T07:16:18.816Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:16:18.816Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:16:18.819Z] error: <httpProxy> Error calling http://authentik.host.or.ip:22070/api/v3/core/users/...
+[2024-10-08T07:16:18.819Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik.host.or.ip'
+  }
+]
+[2024-10-08T07:16:18.820Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://authentik.host.or.ip:22070/api/v3/core/users/?page_size=1
+[2024-10-08T07:27:48.386Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:27:48.389Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:27:48.394Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:27:50.925Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:27:50.949Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:27:50.951Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:27:55.954Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:28:00.983Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:28:00.985Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:28:11.026Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:28:11.028Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:28:21.006Z] error: <credentialedProxyHandler> HTTP Error 400 calling http://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:28:34.623Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:28:34.673Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:28:34.699Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:28:35.298Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T07:28:35.339Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:28:35.347Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:31:12.524Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login_failed
+[2024-10-08T07:31:12.551Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/core/users/?page_size=1
+[2024-10-08T07:31:12.594Z] error: <credentialedProxyHandler> HTTP Error 403 calling https://192.168.10.92:9444/api/v3/events/events/per_month/?action=login
+[2024-10-08T08:58:55.362Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.374Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.378Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.383Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.395Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.398Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.401Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.407Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.413Z] error: <servicesProxy> TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+    at /app/.next/server/chunks/3144.js:124:60
+    at Array.map (<anonymous>)
+    at servicesFromConfig (/app/.next/server/chunks/3144.js:122:34)
+    at async getServiceItem (/app/.next/server/chunks/3144.js:694:30)
+    at async getServiceWidget (/app/.next/server/chunks/3144.js:721:23)
+    at async handler (/app/.next/server/pages/api/services/proxy.js:408:27)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+[2024-10-08T08:58:55.442Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T08:58:55.445Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T08:58:55.452Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T08:58:55.455Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-10-08T08:58:56.633Z] error: Failed to load services.yaml, please check for errors
+[2024-10-08T08:58:56.634Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function

@@ -1,0 +1,18 @@
+services:
+  artifactory-service:
+    image: docker.bintray.io/jfrog/artifactory-oss:7.71.5
+    container_name: artifactory
+    restart: always
+    networks:
+      - jfrog_network
+    ports:
+      - 8081:8081
+      - 8082:8082
+    volumes:
+      - ./artifactory_data:/var/opt/jfrog/artifactory
+
+  networks:
+    jfrog_network:
+      driver: bridge
+  volumes:
+    artifactory_data:

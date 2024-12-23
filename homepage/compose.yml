@@ -1,0 +1,21 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3002:3000
+    volumes:
+      - ./config:/app/config
+      - ./images:/app/images
+      - ./icons:/app/icons
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      HOMEPAGE_VAR_PORTAINER_ACCESS_KEY: $HOMEPAGE_VAR_PORTAINER_ACCESS_KEY
+      HOMEPAGE_VAR_GRAFANA_USERNAME: $HOMEPAGE_VAR_GRAFANA_USERNAME
+      HOMEPAGE_VAR_GRAFANA_PASSWORD: $HOMEPAGE_VAR_GRAFANA_PASSWORD
+      HOMEPAGE_VAR_AUTHETIK_ACCESS_KEY: $HOMEPAGE_VAR_AUTHETIK_ACCESS_KEY
+      HOMEPAGE_VAR_QBITTORRENT_USERNAME: $HOMEPAGE_VAR_QBITTORRENT_USERNAME
+      HOMEPAGE_VAR_QBITTORRENT_PASSWORD: $HOMEPAGE_VAR_QBITTORRENT_PASSWORD
+    restart: unless-stopped
