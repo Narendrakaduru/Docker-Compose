@@ -1,2 +1,3 @@
 http://192.168.1.91:84/admin
+go to settings --> Interface settings --> Recommended setting(Allow only local requests)
 _5JFYIdU
