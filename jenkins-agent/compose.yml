@@ -1,0 +1,14 @@
+services:
+  jenkins-agent:
+    image: jenkins/inbound-agent
+    container_name: jenkins-agent
+    restart: unless-stopped
+    volumes:
+      - "/jenkins:/home/jenkins/agent"
+      - "/home/nani/ansible-playbooks:/home/jenkins/ansible-playbooks"
+    environment:
+      - JENKINS_URL=https://jenkins.nktech.online/
+      - JENKINS_AGENT_NAME=vldocsrv091
+      - JENKINS_SECRET=9dced324902b1005df0fd796cb8d57011be83fec0f05bb02f4b9ce4acd6b3f03
+      - JENKINS_WEB_SOCKET=true
+    command: ["jenkins-agent"]

@@ -1,0 +1,20 @@
+networks:
+  frontend:
+    external: true
+
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:17.8.1-ce.0
+    container_name: gitlab
+    ports:
+      - '8088:80'
+      - '8443:443'
+      - '2424:22'
+    volumes:
+      - ./config:/etc/gitlab
+      - ./logs:/var/log/gitlab
+      - ./data:/var/opt/gitlab
+    shm_size: '4g'
+    networks:
+      - frontend
+    restart: unless-stopped

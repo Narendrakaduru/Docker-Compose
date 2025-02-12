@@ -1,0 +1,44 @@
+---
+volumes:
+  semaphore-mysql:
+    driver: local
+services:
+  mysql:
+    image: docker.io/library/mysql:8.4
+    hostname: mysql
+    volumes:
+      - semaphore-mysql:/var/lib/mysql
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_DATABASE=semaphore
+      - MYSQL_USER=semaphore
+      - MYSQL_PASSWORD=semaphore  # change!
+    restart: unless-stopped
+  semaphore:
+    container_name: ansiblesemaphore
+    image: docker.io/semaphoreui/semaphore:v2.12.4
+    user: "1001:1001"
+    ports:
+      - 3002:3000
+    environment:
+      - SEMAPHORE_DB_USER=semaphore
+      - SEMAPHORE_DB_PASS=semaphore  # change!
+      - SEMAPHORE_DB_HOST=mysql
+      - SEMAPHORE_DB_PORT=3306
+      - SEMAPHORE_DB_DIALECT=mysql
+      - SEMAPHORE_DB=semaphore
+      - SEMAPHORE_PLAYBOOK_PATH=/tmp/semaphore/
+      - SEMAPHORE_ADMIN_PASSWORD=6264  # change!
+      - SEMAPHORE_ADMIN_NAME=nani
+      - SEMAPHORE_ADMIN_EMAIL=kadurunarendra@gmail.com
+      - SEMAPHORE_ADMIN=nani
+      - SEMAPHORE_ACCESS_KEY_ENCRYPTION=h7VVmq8ntjLgHbaui+lwX1cTCiM1lc+D7pdpxd2DIDA=  # add to your access key encryption !
+      - ANSIBLE_HOST_KEY_CHECKING=false  # (optional) change to true if you want to enable host key checking
+      - ANSIBLE_PYTHON_WARNINGS=0
+    volumes:
+      - ./inventory/:/inventory:ro
+      - ./authorized-keys/:/authorized-keys:ro
+      - ./config/:/etc/semaphore:rw
+    restart: unless-stopped
+    depends_on:
+      - mysql

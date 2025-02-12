@@ -1,3 +1,9 @@
+networks:
+  frontend:
+    external: true
+  backend:
+    external: true
+
 services:
   prometheus:
     image: prom/prometheus
@@ -7,6 +13,9 @@ services:
     restart: unless-stopped
     volumes:
       - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+      - frontend
+      - backend
 
   grafana:
     image: grafana/grafana
@@ -20,3 +29,5 @@ services:
     volumes:
       - ./grafana_storage:/var/lib/grafana
       - ./grafana:/etc/grafana/provisioning/datasources
+    networks:
+      - frontend

@@ -1,0 +1,15 @@
+networks:
+  frontend:
+    external: true
+
+services:
+  alpine-web:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+    networks:
+      - frontend

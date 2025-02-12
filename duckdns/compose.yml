@@ -6,7 +6,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
-      - SUBDOMAINS=ptnr.duckdns.org
+      - SUBDOMAINS=nktech.online
       - TOKEN=2626e18d-fadf-4ee1-90c7-0488d3b1ea24
       - UPDATE_IP=ipv4
       - LOG_FILE=false

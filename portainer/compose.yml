@@ -1,3 +1,7 @@
+networks:
+  frontend:
+    external: true
+
 services:
   portainer:
     image: portainer/portainer-ce:latest
@@ -9,6 +13,8 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer_data:/data
+    networks:
+      - frontend
 
 volumes:
   portainer_data:

@@ -1,0 +1,16 @@
+[Unit]
+Description=Jenkins Agent
+After=network.target
+
+[Service]
+User=root
+Group=root
+ExecStart=java -jar /jenkins/agent.jar -url https://jenkins.nktech.online/ -secret 9dced324902b1005df0fd796cb8d57011be83fec0f05bb02f4b9ce4acd6b3f03 -name vldocsrv091 -webSocket -workDir "/jenkins"
+Restart=on-failure
+RestartSec=10s
+WorkingDirectory=/jenkins
+StandardOutput=append:/jenkins/jenkins-agent.log
+StandardError=append:/jenkins/jenkins-agent.log
+
+[Install]
+WantedBy=multi-user.target

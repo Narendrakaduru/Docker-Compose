@@ -1,7 +1,11 @@
+networks:
+  frontend:
+    external: true
+
 services:
   uptime-kuma:
     image: louislam/uptime-kuma:1
-    container_name: uptime-kuma
+    container_name: kuma
     volumes:
       - ./uptime-kuma/data:/app/data
     ports:
@@ -9,3 +13,5 @@ services:
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
+    networks:
+      - frontend
