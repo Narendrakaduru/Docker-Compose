@@ -1,2 +1,6 @@
 username: root
 password: sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
+
+Generate ssl certs if needed on error using openssl and put them on /docker/gitlab/config/ssl
+
+sudo openssl req -newkey rsa:2048 -nodes -keyout registry.gitlab.nktech.online.key   -x509 -days 365 -out registry.gitlab.nktech.online.crt
