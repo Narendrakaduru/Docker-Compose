@@ -4,7 +4,7 @@ networks:
 
 services:
   gitlab:
-    image: gitlab/gitlab-ce:17.8.1-ce.0
+    image: gitlab/gitlab-ce:18.0.0-ce.0
     container_name: gitlab
     ports:
       - '8088:80'
@@ -15,7 +15,7 @@ services:
       - ./config:/etc/gitlab
       - ./logs:/var/log/gitlab
       - ./data:/var/opt/gitlab
-    shm_size: '4g'
+    shm_size: '256m'
     networks:
       - frontend
     restart: unless-stopped
