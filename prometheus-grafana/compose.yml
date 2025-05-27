@@ -26,6 +26,20 @@ services:
     environment:
       GF_SECURITY_ADMIN_USER: $GF_SECURITY_ADMIN_USER
       GF_SECURITY_ADMIN_PASSWORD: $GF_SECURITY_ADMIN_PASSWORD
+      # GF_SERVER_ROOT_URL: "https://grafana.nktech.online"
+      # GF_AUTH_GENERIC_OAUTH_ENABLED: "true"
+      # GF_AUTH_GENERIC_OAUTH_NAME: "authentik"
+      # GF_AUTH_GENERIC_OAUTH_CLIENT_ID: "J5VZXKwZ8eHu4uScfgr0k951EWnAzbbMD6pr8pyD"
+      # GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: "3AG7CzaXCOlGZoLAofOTXDWE2OnJq4Z3NtzUnXyyirTx8B6Guse092nD3Ncaurc0j21RLrT10Tq3ROUAiVEJHqHzqVh9Gy3D5cEo6f2bAoNxtY8yTuCNQHCtbmbgNRmt"
+      # GF_AUTH_GENERIC_OAUTH_SCOPES: "openid profile email"
+      # GF_AUTH_GENERIC_OAUTH_AUTH_URL: "https://authentik.nktech.online/application/o/authorize/"
+      # GF_AUTH_GENERIC_OAUTH_TOKEN_URL: "https://authentik.nktech.online/application/o/token/"
+      # GF_AUTH_GENERIC_OAUTH_API_URL: "https://authentik.nktech.online/application/o/userinfo/"
+      # GF_AUTH_SIGNOUT_REDIRECT_URL: "https://authentik.nktech.online/application/o/grafana/end-session/"
+      # # Optionally enable auto-login (bypasses Grafana login screen)
+      # GF_AUTH_OAUTH_AUTO_LOGIN: "true"
+      # # Optionally map user groups to Grafana roles
+      # GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: "contains(groups, 'Grafana Admins') && 'Admin' || contains(groups, 'Grafana Editors') && 'Editor' || 'Viewer'"
     volumes:
       - ./grafana_storage:/var/lib/grafana
       - ./grafana:/etc/grafana/provisioning/datasources

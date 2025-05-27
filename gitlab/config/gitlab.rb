@@ -25,3 +25,36 @@ letsencrypt['enable'] = false
 # Nginx
 nginx['listen_port'] = 80
 nginx['listen_https'] = false
+
+
+# # SSO Login
+# gitlab_rails['omniauth_allow_single_sign_on'] = ['openid_connect']
+# gitlab_rails['omniauth_sync_email_from_provider'] = 'openid_connect'
+# gitlab_rails['omniauth_sync_profile_from_provider'] = ['openid_connect']
+# gitlab_rails['omniauth_sync_profile_attributes'] = ['email']
+# gitlab_rails['omniauth_auto_sign_in_with_provider'] = 'openid_connect'
+# gitlab_rails['omniauth_block_auto_created_users'] = false
+# gitlab_rails['omniauth_auto_link_saml_user'] = true
+# gitlab_rails['omniauth_auto_link_user'] = ["openid_connect"]
+# gitlab_rails['omniauth_providers'] = [
+#   {
+#     name: 'openid_connect',
+#     label: 'NK Tech Login',
+#     args: {
+#       name: 'openid_connect',
+#       scope: ['openid','profile','email'],
+#       response_type: 'code',
+#       issuer: 'https://authentik.nktech.online/application/o/gitlab/',
+#       discovery: true,
+#       client_auth_method: 'query',
+#       uid_field: 'preferred_username',
+#       send_scope_to_token_endpoint: 'true',
+#       pkce: true,
+#       client_options: {
+#         identifier: 'meb7vmLtDIcaLwvKlShy9d4dKYzDJl4Z149C9FMb',
+#         secret: 'NrtVrF6FbwmsoAeMiW5XGId0aM6w8dLrjwi9EjnEj7PMu3WMeu75OANN2iVdHVqk0K379aMVuWc2TqPj75DINOdWdPDTlDi8xAANARDZ1nv92yxFmpax2JqtnEYc8Rga',
+#         redirect_uri: 'https://gitlab.nktech.online/users/auth/openid_connect/callback'
+#       }
+#     }
+#   }
+# ]

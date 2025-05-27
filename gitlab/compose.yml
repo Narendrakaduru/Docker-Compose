@@ -8,6 +8,7 @@ services:
     container_name: gitlab
     ports:
       - '8088:80'
+      - '8090:8090'
       - '8443:443'
       - '2424:22'
     volumes:

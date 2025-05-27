@@ -1,0 +1,5 @@
+/mailcow-dockerized
+/nginx-proxy-manager/data
+/nginx-proxy-manager/letsencrypt
+/gitlab/config/ssl
+.idea

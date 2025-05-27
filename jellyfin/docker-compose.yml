@@ -1,0 +1,15 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    container_name: jellyfin
+    ports:
+      - "8096:8096"
+    volumes:
+      - D:/docker_volumes/use/jellyfin/config:/config
+      - D:/docker_volumes/use/jellyfin/cache:/cache
+      - D:/MEDIA:/media
+    restart: unless-stopped
+    environment:
+      - JELLYFIN_ADMIN_USERNAME=nani  # Set your preferred username
+      - JELLYFIN_ADMIN_PASSWORD=6264  # Set your preferred password
+      - JELLYFIN_PublishedServerUrl=http://localhost:8096
